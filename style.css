@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header-logotext {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header-image {
+    width: 50px;
+    height: auto;
+}
+.header-text {
+    font-size: 24px;
+    font-weight: #F9FAF8;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+a {
+    text-decoration: none;
+}
+
