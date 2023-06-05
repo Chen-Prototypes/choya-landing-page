@@ -4,6 +4,9 @@ body {
     font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
+    background-image: url("https://d3b4yo2b5lbfy.cloudfront.net/wp-content/uploads/wallpapers/421dc2014-06-04_KiteCity2-1920x1200.jpg");
+    background-attachment: fixed;
+
 }
 
 /* Header */
@@ -56,8 +59,7 @@ a {
     background-color: #1F2937;
 }
 .website-info {
-    width: 50wv;
-    margin-left: 40px;
+    width: 500px;
 }
 .website-title {
     font-size: 48px;
@@ -86,7 +88,7 @@ a {
 
 /* Our Team */
 .content {
-    background-color: rgb(225, 255, 243);
+    /* background-color: rgb(225, 255, 243); */
     text-align: center;
     padding: 20px;
     padding-bottom: 0;
@@ -94,8 +96,9 @@ a {
 .content-title {
     font-size: 36px;
     font-weight: 900;
-    color: #1F2937;
+    color: #E5E7EB;
     margin-bottom: 20px;
+    text-shadow: 3px 2px #000000;
 }
 .card-container {
     display: flex;
@@ -109,8 +112,9 @@ a {
     border: 3px black solid;
 }
 .card .card-text {
-    font-size: 18px;
-    color: #1F2937;
+    font-size: 20px;
+    color: #E5E7EB;
+    text-shadow: 3px 2px #000000;
 }
 
 /* Quote */
@@ -136,4 +140,36 @@ a {
     font-style: italic;
     font-weight: bold;
     color: #03050a;
+}
+
+/* Signup */
+.signup-card {
+    display: flex;
+    margin: 30px 120px;
+    padding: 30px;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: lightblue;
+    border-radius: 15px;
+    border: 3px black solid;
+}
+.signup-box {
+    width: 500px;
+}
+.signup-title {
+    font-size: 18px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 5px;
+}
+.signup-text {
+    font-size: 14px;
+}
+.card-signup {
+    width: 200px;
+    background-color: #3882F6;
+    border: none;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
 }
