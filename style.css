@@ -25,6 +25,9 @@ body {
 .header-image {
     width: 50px;
     height: auto;
+    border-radius: 15%;
+    margin-right: 10px;
+    border: 1px rgb(143, 124, 124) solid;
 }
 .header-text {
     font-size: 24px;
@@ -34,7 +37,8 @@ ul {
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
+    margin-right: 20px;
     font-size: 18px;
 }
 a {
@@ -45,14 +49,15 @@ a {
 /* Intro */
 .intro {
     display: flex;
-    gap: 30px;
+    gap: 50px;
     justify-content: center;
     align-items: center;
     height: 300px;
     background-color: #1F2937;
 }
 .website-info {
-    width: 500px;
+    width: 50wv;
+    margin-left: 40px;
 }
 .website-title {
     font-size: 48px;
@@ -65,7 +70,7 @@ a {
     color: #E5E7EB;
 }
 .website-signup {
-    padding: 5px;
+    padding: 5px 10px;
     font-size: 18px;
     margin-top: 10px;
     border: 0;
@@ -73,14 +78,15 @@ a {
     background-color: #3882F6;
 }
 .website-image {
-    width: 400px;
+    width: 400px; 
     height: auto;
+    border-radius: 10px;
+    border: 2px #626361 solid;
 }
 
 /* Our Team */
 .content {
     background-color: rgb(225, 255, 243);
-    height: 400px;
     text-align: center;
     padding: 20px;
     padding-bottom: 0;
@@ -94,6 +100,7 @@ a {
 .card-container {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 30px;
 }
 .card .card-image {
     width: 200px;
@@ -104,4 +111,29 @@ a {
 .card .card-text {
     font-size: 18px;
     color: #1F2937;
+}
+
+/* Quote */
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 30px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote .quote-text {
+    width: 80vw;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 20px;
+}
+.quote .quote-author {
+    margin-left: 40vw;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+    color: #03050a;
 }
