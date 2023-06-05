@@ -70,9 +70,38 @@ a {
     margin-top: 10px;
     border: 0;
     border-radius: 5px;
-    background-color: rgb(0, 187, 255);
+    background-color: #3882F6;
 }
 .website-image {
     width: 400px;
     height: auto;
+}
+
+/* Our Team */
+.content {
+    background-color: rgb(225, 255, 243);
+    height: 400px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 0;
+}
+.content-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 20px;
+}
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.card .card-image {
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    border: 3px black solid;
+}
+.card .card-text {
+    font-size: 18px;
+    color: #1F2937;
 }
